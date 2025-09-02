@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code2, Palette, Database, Wrench } from 'lucide-react';
+import { Code2, Palette, Database, Wrench, Star } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { personalInfo, skills, experience } from '@/data/portfolio';

@@ -5,7 +5,8 @@ export const personalInfo = {
   tagline: "Full Stack Developer & UI/UX Enthusiast",
   bio: "Passionate full-stack developer creating beautiful, functional web applications. I love turning complex problems into simple, elegant solutions that users enjoy.",
   email: "debronit503@gmail.com",
-  github: "https://github.com/Ronit30101998"
+  github: "https://github.com/Ronit30101998",
+  linkedin: "https://linkedin.com/in/ronit-deb"
 };
 
 export const skills: Skill[] = [
@@ -18,6 +19,10 @@ export const skills: Skill[] = [
   { name: "PostgreSQL", category: "backend" },
   { name: "MongoDB", category: "backend" },
   { name: "Git", category: "tools" },
+  { name: "Docker", category: "tools" },
+  { name: "AWS", category: "tools" },
+  { name: "Figma", category: "design" },
+  { name: "Adobe XD", category: "design" }
 ];
 
 export const experience: ExperienceItem[] = [
@@ -25,7 +30,13 @@ export const experience: ExperienceItem[] = [
     company: "Capgemini",
     role: "Process Associate",
     duration: "2025 - Present",
-    description:"Resolved client issues via Salesforce Service Cloud, ensuring timely ticket resolution."
+    description: "Resolved client issues via Salesforce Service Cloud, ensuring timely ticket resolution. Collaborated with cross-functional teams to improve customer satisfaction and streamline support processes."
+  },
+  {
+    company: "Freelance",
+    role: "Full Stack Developer",
+    duration: "2023 - 2024",
+    description: "Developed custom web applications for small businesses and startups. Specialized in React, Node.js, and modern web technologies to deliver scalable solutions."
   }
 ];
 
@@ -36,7 +47,7 @@ export const projects: Project[] = [
     description: "Modern job portal connecting talented professionals with top companies. Features advanced search filters, real-time notifications, and seamless application tracking.",
     image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
     githubUrl: "https://github.com/Ronit30101998/jobconnect-pro",
-    demoUrl: "https://jobconnect-pro.example.com",
+    demoUrl: "https://jobconnect-pro-demo.netlify.app",
     technologies: ["React", "Node.js", "PostgreSQL", "Express", "JWT"]
   },
   {
@@ -53,7 +64,7 @@ export const projects: Project[] = [
     title: "ThoughtStream Blog",
     description: "Feature-rich blogging platform with markdown support, real-time comments, user authentication, and social sharing. Built for content creators and tech enthusiasts.",
     image: "https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&w=800",
-    githubUrl: "",
+    githubUrl: "https://github.com/Ronit30101998/thoughtstream-blog",
     demoUrl: "https://earnest-travesseiro-10db1d.netlify.app/",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Markdown"]
   },
@@ -63,7 +74,7 @@ export const projects: Project[] = [
     description: "Intelligent voice-powered task management application using speech recognition and AI. Transform your spoken thoughts into organized, actionable tasks with smart categorization.",
     image: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800",
     githubUrl: "https://github.com/Ronit30101998/neurospace?tab=readme-ov-file",
-    demoUrl: "https://neurospace-voice.example.com",
+    demoUrl: "https://neurospace-voice-demo.netlify.app",
     technologies: ["Next.js", "Web Speech API", "AI/ML", "TypeScript", "Tailwind CSS"]
   }
 ];
