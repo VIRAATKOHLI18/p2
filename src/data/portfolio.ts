@@ -31,12 +31,6 @@ export const experience: ExperienceItem[] = [
     role: "Process Associate",
     duration: "2025 - Present",
     description: "Resolved client issues via Salesforce Service Cloud, ensuring timely ticket resolution. Collaborated with cross-functional teams to improve customer satisfaction and streamline support processes."
-  },
-  {
-    company: "Freelance",
-    role: "Full Stack Developer",
-    duration: "2023 - 2024",
-    description: "Developed custom web applications for small businesses and startups. Specialized in React, Node.js, and modern web technologies to deliver scalable solutions."
   }
 ];
 

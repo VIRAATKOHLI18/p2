@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { personalInfo } from '@/data/portfolio';
@@ -31,7 +31,7 @@ export function Hero() {
                 className="absolute -inset-4 rounded-full bg-gradient-to-r from-primary via-purple-600 to-blue-600 opacity-20"
               />
               <Avatar className="h-32 w-32 border-4 border-background shadow-2xl">
-                <AvatarImage src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400" alt={personalInfo.name} />
+                <AvatarImage src="/Sunnyda.jpg" alt={personalInfo.name} />
                 <AvatarFallback className="text-2xl font-bold bg-gradient-to-br from-primary to-purple-600 text-white">
                   {personalInfo.name.split(' ').map(n => n[0]).join('')}
                 </AvatarFallback>
@@ -79,13 +79,6 @@ export function Hero() {
                 <Button variant="ghost" size="icon" asChild className="hover:bg-primary/10 transition-colors">
                   <a href={personalInfo.github} target="_blank" rel="noopener noreferrer">
                     <Github className="h-6 w-6" />
-                  </a>
-                </Button>
-              </motion.div>
-              <motion.div whileHover={{ scale: 1.2, rotate: -5 }} whileTap={{ scale: 0.9 }}>
-                <Button variant="ghost" size="icon" asChild className="hover:bg-primary/10 transition-colors">
-                  <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">
-                    <Linkedin className="h-6 w-6" />
                   </a>
                 </Button>
               </motion.div>

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Heart, Sparkles } from 'lucide-react';
+import { Github, Mail, Heart, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { personalInfo } from '@/data/portfolio';
 
@@ -26,14 +26,6 @@ export function Footer() {
               <Button variant="ghost" size="icon" asChild className="hover:bg-primary/10 transition-all duration-300">
                 <a href={personalInfo.github} target="_blank" rel="noopener noreferrer">
                   <Github className="h-6 w-6" />
-                </a>
-              </Button>
-            </motion.div>
-            
-            <motion.div whileHover={{ scale: 1.2, rotate: -10 }} whileTap={{ scale: 0.9 }}>
-              <Button variant="ghost" size="icon" asChild className="hover:bg-primary/10 transition-all duration-300">
-                <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-6 w-6" />
                 </a>
               </Button>
             </motion.div>
