@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Mail, Heart, Sparkles } from 'lucide-react';
+import { Github, Mail, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { personalInfo } from '@/data/portfolio';
 
